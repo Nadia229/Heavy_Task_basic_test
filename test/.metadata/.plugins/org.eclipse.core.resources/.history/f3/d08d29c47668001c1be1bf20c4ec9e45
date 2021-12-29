@@ -1,0 +1,23 @@
+import java.util.*;
+public class Try
+{
+public static void main(String args[])
+{
+   int index=0,i;
+   String str = "Xmas Gift Tree Light People";
+   String[] arrayEx1 = {"nadia","sultana","suchi","hello","hi","welcome","hello"};
+   int arrl=arrayEx1.length;
+   System.out.print(arrayEx1.length);
+   for(i=arrl; i<5; i--) {
+         //if(arrayEx1[i].length==fromLast)
+     {
+      System.out.print(arrl);
+      index=i;
+      break;
+    }
+}
+//System.out.print("Last n items from an array is: ");
+for (i=index; i<arrayEx1.length;i++)
+System.out.print(" "+arrayEx1[i] );
+}
+}

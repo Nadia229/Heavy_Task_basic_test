@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.Scanner;
+ 
+class Problem_2 {
+    public static void main (String[] args) {
+       
+        String str= "algnab", nstr="";
+        char ch;
+        int intval;
+       
+       
+      System.out.print("Original word: ");
+      System.out.println("algnab"); //Example word
+       
+      for (int i=0; i<str.length(); i++)
+      {
+    	intval= Integer.parseInt(str);
+    	System.out.println("numeric word: "+ intval);
+        ch= str.charAt(i); //extracts each character
+        nstr= ch+nstr; //adds each character in front of the existing string
+      }
+      System.out.println("Reversed word: "+ nstr);
+    }
+}
+ 

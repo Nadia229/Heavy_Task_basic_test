@@ -1,0 +1,33 @@
+// Java Program to iterate over List
+// Using simple for loop
+ 
+// Importing all classes of
+// java.util package
+import java.util.*;
+ 
+// CLass
+class Problem_3 {
+ 
+    // Main driver method
+    public static void main(String args[])
+    {
+        // Creating a ArrayList
+        List<String> myList = new ArrayList<String>();
+ 
+        // Adding elements to the list
+        // Custom inputs
+        myList.add("Xmas Gift Tree Light People");
+        /*myList.add("B");
+        myList.add("C");
+        myList.add("D");*/
+ 
+        // For loop for iterating over the List
+        for (int i = 0; i < myList.size(); i++) {
+ 
+            // Print all elements of List
+        	//System.out.print(myList.size());
+            System.out.println(myList.get(i));
+            //myList.add("");
+        }
+    }
+}

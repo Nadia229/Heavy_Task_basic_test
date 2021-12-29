@@ -1,0 +1,22 @@
+import java.util.*;
+import java.util.Scanner;
+public class Try
+{
+public static void main(String args[])
+{
+	ArrayList<String> namesList = new ArrayList<String>(Arrays.asList( "xmas", "gift", "tree","light","people") );
+    
+    System.out.println(namesList);  //list size is 3
+    for(int i=0;i<2;i++){
+    Scanner sc = new Scanner (System.in); 
+    String str = sc.nextLine();
+    namesList.remove(0);
+    namesList.add(4,str);
+    System.out.println(namesList);
+    }
+     
+
+}
+   
+
+}

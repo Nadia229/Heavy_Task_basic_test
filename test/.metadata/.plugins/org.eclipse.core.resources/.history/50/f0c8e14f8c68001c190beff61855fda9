@@ -1,0 +1,13 @@
+import java.util.*;
+public class Try
+{
+public static void main(String args[])
+{
+	ArrayList<String> namesList = new ArrayList<String>(Arrays.asList( "xmas", "gift", "tree","light","people") );
+    
+    System.out.println(namesList);  //list size is 3
+	    
+}
+   
+
+}

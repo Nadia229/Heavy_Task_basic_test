@@ -1,0 +1,21 @@
+import java.util.*;
+public class Try
+{
+public static void main(String args[])
+{
+   int index=0,i;
+   String str = "Xmas Gift Tree Light People";
+   String[] arrayEx1 = {"Xmas","Gift","Tree","Light","People"};
+   int arrl=arrayEx1.length+1;
+   //System.out.print(arrayEx1.length);
+   for(i=0; i<5; i++) {
+	    arrl= arrl-1;
+	    
+}
+   //System.out.print(arrl);
+System.out.print("Test1");
+System.out.print("Storage: ");
+for (i=arrl; i<arrayEx1.length;i++)
+System.out.print(" "+arrayEx1[i] );
+}
+}

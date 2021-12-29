@@ -1,0 +1,18 @@
+import java.util.*;
+public class Try
+{
+public static void main(String args[])
+{
+   int index=0,i;
+   String arrayEx1[] = {"Xmas","Gift","Tree","Light","People"};
+   
+   for(i=0; i<arrayEx1.length; i++) {
+	   
+	   arrayEx1[i+1]=arrayEx1[i+2];
+	   System.out.println(arrayEx1[i]);
+	    
+}
+   
+
+}
+}

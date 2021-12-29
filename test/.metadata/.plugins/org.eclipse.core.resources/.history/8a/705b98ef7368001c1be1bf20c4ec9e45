@@ -1,0 +1,21 @@
+import java.util.*;
+public class Problem_3
+{
+public static void main(String args[])
+{
+   int index=0,i;
+   int[] arrayEx1 = {4,1,2,5,3,6,7};
+   int fromLast=5;
+   
+   for(i=0; i<arrayEx1.length; i++) {
+         if(arrayEx1[i]==fromLast)
+    {
+      index=i;
+      break;
+    }
+}
+System.out.print("Last n items from an array is: ");
+for (i=index; i<arrayEx1.length;i++)
+System.out.print(" "+arrayEx1[i] );
+}
+}

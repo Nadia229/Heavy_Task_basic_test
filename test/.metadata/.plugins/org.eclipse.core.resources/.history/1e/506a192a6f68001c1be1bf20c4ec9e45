@@ -1,0 +1,46 @@
+class Problem_2 {
+  
+    // Function to remove all the digit
+    // from string
+    public static String removeAllDigit(String str)
+    {
+        String result = "";
+  
+        // Traverse the String from start to end
+        for (int i = 0; i < str.length(); i++) {
+  
+            // Check if the specified character is not digit
+            // then add this character into result variable
+            if (!Character.isDigit(str.charAt(i))) {
+                result = result + str.charAt(i);
+            }
+        }
+  
+        // Return result
+        return result;
+    }
+  
+    // Driver Code
+    public static void main(String args[])
+    {
+  
+    	String str= "1791hsedalgnab", nstr="";
+        char ch;
+        String str2 = removeAllDigit(str);
+        
+        
+      System.out.print("Original word: ");
+      System.out.println("Na4d6i12a"); //Example word
+      System.out.println("without Numeric word: "+ str2);
+       
+      for (int i=0; i<str2.length(); i++)
+      {
+        ch= str2.charAt(i); //extracts each character
+        nstr= ch+nstr; //adds each character in front of the existing string
+      }
+      System.out.println("Reversed word: "+ nstr);
+    
+       
+      
+    }
+}
